@@ -1,108 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Product showcase highlighting smartphones, laptops, headphones, and more with a comparison table." />
-    <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Showcase</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
-    <header>
-        <h1>Our Products</h1>
-    </header>
 
-    <!-- Product Grid Section -->
-    <section class="product-grid">
+<header>
+    <h2>Our Products</h2>
+</header>
+
+<main>
+
+    <section class="product-cards">
 
         <article class="product-card">
-            <span class="tag new">New</span>
-            <img src="https://cdn-icons-png.flaticon.com/512/13/13936.png" alt="Smartphone" />
-            <h3>SmartPhone Pro</h3>
-            <p>Latest technology with amazing camera and battery life.</p>
-            <h2>$699</h2>
-            <button>Learn More</button>
+            <span class="product-badges">New</span>
+            <span class="product-images">📱</span>
+            <h3>Smartphone Pro</h3>
+            <p class="product-desc">Latest technology with amazing camera and battery life.</p>
+            <span class="price">$699</span>
+            <button class="product-btn">Learn More</button>
         </article>
 
         <article class="product-card">
-            <span class="tag popular">Popular</span>
-            <img src="https://cdn-icons-png.flaticon.com/512/3565/3565150.png" alt="Laptop" />
+            <span class="product-badges popular">Popular</span>
+            <span class="product-images">💻</span>
             <h3>Laptop Ultra</h3>
-            <p>Powerful performance for work and play.</p>
-            <h2>$1299</h2>
-            <button>Learn More</button>
+            <p class="product-desc">Powerful performance for work and play.</p>
+            <span class="price">$1299</span>
+            <button class="product-btn">Learn More</button>
         </article>
 
         <article class="product-card">
-            <span class="tag sale">Sale</span>
-            <img src="https://cdn-icons-png.flaticon.com/512/3208/3208750.png" alt="Headphones" />
+            <span class="product-badges sale">Sale</span>
+            <span class="product-images">🎧</span>
             <h3>Wireless Headphones</h3>
-            <p>Premium sound quality with noise cancellation.</p>
-            <h2>$199</h2>
-            <button>Learn More</button>
+            <p class="product-desc">Premium sound quality with noise cancellation.</p>
+            <span class="price">$199</span>
+            <button class="product-btn">Learn More</button>
         </article>
 
         <article class="product-card">
-            <img src="https://cdn-icons-png.flaticon.com/512/597/597410.png" alt="Smart Watch" />
+            <span class="product-images">⌚</span>
             <h3>Smart Watch</h3>
-            <p>Track your fitness and stay connected.</p>
-            <h2>$299</h2>
-            <button>Learn More</button>
+            <p class="product-desc">Track your fitness and stay connected.</p>
+            <span class="price">$299</span>
+            <button class="product-btn">Learn More</button>
         </article>
 
     </section>
 
-    <!-- Comparison Table -->
-    <section class="comparison">
-        <h2>Product Comparison</h2>
+    <aside class="comparison-box">
+        <h3 class="compare-title">Product Comparison</h3>
 
         <table>
-            <tr>
-                <th>Feature</th>
-                <th>SmartPhone Pro</th>
-                <th>Laptop Ultra</th>
-                <th>Wireless Headphones</th>
-                <th>Smart Watch</th>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>SmartPhone Pro</th>
+                    <th>Laptop Ultra</th>
+                    <th>Wireless Headphones</th>
+                    <th>Smart Watch</th>
+                </tr>
+            </thead>
 
-            <tr>
-                <td>Price</td>
-                <td>$699</td>
-                <td>$1299</td>
-                <td>$199</td>
-                <td>$299</td>
-            </tr>
-
-            <tr>
-                <td>Battery Life</td>
-                <td>24 hours</td>
-                <td>10 hours</td>
-                <td>30 hours</td>
-                <td>48 hours</td>
-            </tr>
-
-            <tr>
-                <td>Warranty</td>
-                <td>2 years</td>
-                <td>3 years</td>
-                <td>1 year</td>
-                <td>1 year</td>
-            </tr>
-
-            <tr>
-                <td>Rating</td>
-                <td>4.8 ⭐</td>
-                <td>4.9 ⭐</td>
-                <td>4.7 ⭐</td>
-                <td>4.6 ⭐</td>
-            </tr>
+            <tbody>
+                <tr>
+                    <td>Price</td>
+                    <td>$699</td>
+                    <td>$1299</td>
+                    <td>$199</td>
+                    <td>$299</td>
+                </tr>
+                <tr>
+                    <td>Battery Life</td>
+                    <td>24 hours</td>
+                    <td>10 hours</td>
+                    <td>30 hours</td>
+                    <td>48 hours</td>
+                </tr>
+                <tr>
+                    <td>Warranty</td>
+                    <td>2 years</td>
+                    <td>3 years</td>
+                    <td>1 year</td>
+                    <td>1 year</td>
+                </tr>
+                <tr>
+                    <td>Rating</td>
+                    <td>4.8⭐</td>
+                    <td>4.9⭐</td>
+                    <td>4.7⭐</td>
+                    <td>4.6⭐</td>
+                </tr>
+            </tbody>
         </table>
-    </section>
+    </aside>
 
-    <footer>
-        <p>© 2024 Product Showcase</p>
-    </footer>
+</main>
+
+<footer>
+    &copy;2024 Product Showcase
+</footer>
 
 </body>
 </html>

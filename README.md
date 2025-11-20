@@ -1,7 +1,7 @@
 # Project 4: Product Showcase
 
 ## Learning Objectives
-
+project4
 ### HTML Concepts:
 1. **Tables**: Create a comparison table using `<table>`, `<tr>`, `<td>`, `<th>`
 2. **Semantic Sections**: Use `<article>` for product cards and `<aside>` for sidebar
